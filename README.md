@@ -7,4 +7,5 @@ Specifically, this repo contains:
 - CCLS2025.csv, which contains Riveter scores (on both power and agency) for the selected entities (Hades and Persephone) analyzed in the paper *A Powerful Hades is an Unpopular Dude* submitted to CCLS2025. This file also contains assorted metadata on the fanfiction, taken from [MythFic Metadata](https://doi.org/10.34973/2mye-8468), including the data on violence and popularity metrics used in the paper.
 - Notebook 2 for re-creating the plots included in the paper. Some of the code used in this notebook was adapted from [Yang & Pianzola's Omegaverse Study (2024)](https://github.com/GOLEM-lab/Omegaverse_Study).
 - Notebook 3 for re-creating the correlation matrices included in the paper. 
+- Finally, the folder 'correlations_by_year' contains correlation tables between Riveter scores and popularity metrics (including the kudos/hits ratio) for every year for which statistically significant correlations were found.
 
