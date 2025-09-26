@@ -1,6 +1,8 @@
 # CCLS2025
 Code and derived data for a paper submitted to CCLS2025. [You can already read a preprint here](https://tuprints.ulb.tu-darmstadt.de/30143/).
 
+# Note: run all notebooks in Python 3.9.18.
+
 # What this repo contains
 - notebooks folder, containing 4 notebooks:
     - Notebook 0 for exploring the Riveter-objects I created for the paper and (optionally) your own Riveter-objects. Some of the code used in this notebook was adapted from [Antoniak et al.'s repo of Riveter documentation](https://github.com/maartensap/riveter-nlp). To run Riveter on fanfiction from AO3, you will need a csv of work-ids for the fanfiction, which you can collect using [Radiolorian's AO3-Scraper](https://github.com/radiolarian/AO3Scraper).
@@ -15,3 +17,19 @@ Code and derived data for a paper submitted to CCLS2025. [You can already read a
     - a folder titled correlations_by_year, where you can browse some of the outputs of Notebook 3.
 
 
+# Dockerized Environment
+This project is fully Dockerized, so you can run all notebooks in the same environment as I did. This is especially important for notebook 0, the other notebooks can probably be run without the Docker environments if you prefer.  
+
+The prerequisites for the Dockerized environment are:
+
+- Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+- (Optional) Install [VS Code](https://code.visualstudio.com/) and the **Remote - Containers** extension
+
+## To Build Docker Image
+
+Open terminal in this folder and run:
+
+```bash
+
+docker build -t riveter-notebook .
