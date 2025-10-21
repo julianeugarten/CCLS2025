@@ -1,0 +1,6 @@
+# Ignore specific Jupyter notebooks
+0. Exploring Redacted Riveter Objects.ipynb
+1. Getting Riveter Scores.ipynb
+
+# Ignore macOS system file
+.DS_Store
